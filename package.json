@@ -1,6 +1,6 @@
 {
-  "name": "with-antd",
-  "displayName": "With ant design",
+  "name": "解析online",
+  "displayName": "课堂、会议调试工具",
   "version": "0.0.1",
   "description": "A basic Plasmo extension.",
   "author": "Plasmo Corp. <foss@plasmo.com>",
@@ -14,8 +14,9 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "1.11.1",
+    "@plasmohq/storage": "^1.7.0",
     "antd": "5.7.0",
-    "plasmo": "workspace:*",
+    "plasmo": "0.81.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -26,11 +27,15 @@
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
     "prettier": "3.0.0",
+    "sharp": "^0.32.3",
     "typescript": "5.1.6"
   },
   "manifest": {
     "host_permissions": [
       "https://*/*"
+    ],
+    "permissions": [
+      "storage"
     ]
   }
 }

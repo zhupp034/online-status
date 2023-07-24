@@ -1,6 +1,6 @@
 import Button from "antd/es/button"
 
-import { ThemeProvider } from "~theme"
+import { ThemeProvider } from "~src/theme"
 
 function IndexOption() {
   return (
@@ -11,9 +11,7 @@ function IndexOption() {
           flexDirection: "column",
           padding: 16
         }}>
-        <h1>
-          Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
-        </h1>
+        <div>2333</div>
         <Button type="primary">Fascinating</Button>
       </div>
     </ThemeProvider>

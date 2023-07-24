@@ -3,7 +3,7 @@ import Button from "antd/es/button"
 import antdResetCssText from "data-text:antd/dist/reset.css"
 import type { PlasmoCSConfig, PlasmoGetShadowHostId } from "plasmo"
 
-import { ThemeProvider } from "~theme"
+import { ThemeProvider } from "~src/theme"
 
 export const config: PlasmoCSConfig = {
   matches: ["https://www.plasmo.com/*"]
